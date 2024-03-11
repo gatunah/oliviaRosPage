@@ -1,0 +1,26 @@
+body{
+    font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+}
+.div-nav {
+    background-color: #373A3C;
+}
+
+.img-hero {
+    /* display: flex; */
+    background-image: url('../img/bg-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+}
+
+@media (max-width: 768px) {
+    .img-hero {
+        background-position-x: left;
+    }
+}
+.bg-color-trabajos{
+    background-color: #17A2B8;
+}
